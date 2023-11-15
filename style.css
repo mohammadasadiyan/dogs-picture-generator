@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 20px;
+}
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M517.318%2c279.944C570.184%2c278.889%2c602.505%2c226.58%2c625.542%2c178.985C645.135%2c138.504%2c649.783%2c91.953%2c627.107%2c53.115C604.613%2c14.59%2c561.801%2c-2.989%2c517.318%2c-6.37C464.369%2c-10.394%2c401.924%2c-11.419%2c374.24%2c33.896C345.929%2c80.236%2c374.048%2c136.514%2c401.346%2c183.458C428.439%2c230.05%2c463.432%2c281.019%2c517.318%2c279.944' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1000.0123748795594 198.87282162589756L1114.9000931625628 180.67639466548104 1096.7036662021465 65.78867638247755 981.8159479191429 83.98510334289406z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1342.216%2c536.261C1358.337%2c536.722%2c1375.087%2c532.79%2c1384.099%2c519.415C1394.162%2c504.479%2c1396.838%2c484.488%2c1387.455%2c469.116C1378.37%2c454.233%2c1359.622%2c449.76%2c1342.216%2c450.8C1326.713%2c451.726%2c1313.17%2c460.531%2c1305.46%2c474.013C1297.81%2c487.391%2c1296.449%2c503.864%2c1304.285%2c517.134C1312.002%2c530.203%2c1327.045%2c535.827%2c1342.216%2c536.261' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1210.2684736850845 332.02290158524136L1257.631276406388 194.4713347248176 1120.0797095459643 147.10853200351409 1072.7169068246608 284.66009886393783z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1144.93%2c317.519C1173.389%2c317.572%2c1204.887%2c310.684%2c1217.79%2c285.318C1230.016%2c261.284%2c1213.062%2c235.014%2c1198.419%2c212.371C1185.494%2c192.384%2c1168.705%2c173.791%2c1144.93%2c172.654C1119.312%2c171.429%2c1095.668%2c185.231%2c1081.78%2c206.793C1066.536%2c230.461%2c1058.591%2c260.594%2c1072.538%2c285.048C1086.581%2c309.671%2c1116.584%2c317.466%2c1144.93%2c317.519' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M470.24843974441285 351.5597991338632L566.1148677964065 404.69942793352885 597.8910969699082 234.3299714557054z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 450px;
+    height: 500px;
+    background-color: #e0dcdc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#picture {
+    width: 400px;
+    height: 300px;
+    background-color:azure;
+    border-radius: 0 5px  10px 10px;
+    margin-top: 2px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#picture p {
+    font-size: 23px;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button {
+    font-family: sans-serif;
+    padding: 5px;
+    width: 100%;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
